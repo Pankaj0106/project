@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drona - Energy Monitoring System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="navbar">
+        <div class="navbar-left">
+            <img src="assets/logo.png" alt="Drona Logo"  class="logo">
+            <h1>Drona - <span> Energy Monitoring System</span></h1>
+        </div>
+        <div class="navbar-right">
+            <div class="toggle-switch">
+                <input type="checkbox" id="toggle" class="toggle-checkbox">
+                <label for="toggle" class="toggle-label"></label>
+            </div>
+            <div class="navbar-icons">
+                <a href="#" class="icon-link">
+                    <i class="fa-regular fa-circle-question" style="color: #000000;"></i></a>
+                <a href="#" class="icon-link">
+                    <i class="fa-regular fa-bell" style="color: #000000;"></i>
+                </a>
+                <a href="#" class="icon-link">
+                    <img src="assets/time.png" width="30" alt="">
+                </a>
+                <a href="#" class="icon-link"><i class="fas fa-power-off" style="color: #ec4147;font-size: 40px;padding: 22px;"></i></a>
+            </div>
+        </div>
+    </header>
+    <section>
+    <div class="sidebar">
+        <ul class="menu">
+            <li><a href="#"><i class="fa-sharp fa-solid fa-chart-column" style="color: #ffffff;"></i></a></li>
+            <li><a href="#"><i class="fa-sharp fa-solid fa-chart-column" style="color: #ffffff;"></i></a></li>
+            <li><a href="#"><i class="fa-sharp fa-solid fa-chart-column" style="color: #ffffff;"></i></a></li>
+            <li><a href="#"><i class="fa-sharp fa-solid fa-chart-column" style="color: #ffffff;"></i></a></li>
+        </ul>
+    </div>
+</section>
+<section class="card-content">
+            <div class="stats">
+                <div class="stat-item1"><p class="heading">Projects<i class="fa-solid fa-circle-info" style="color: #000000;"></i> </p><strong>15</strong><i class="fa fa-signal" style="font-size:15px;background: #ffffff;border-radius: 18px;padding: 10px;margin-left: 22px;"></i>
+                </div>
+                <div class="stat-item2"><p>DC Capacity:</p> <strong>408.76 mwp</strong><i class="fa fa-signal" style="font-size:15px;"></i>
+                </div>
+                <div class="stat-item3"><p>Plant Status:</p> <strong>...</strong><i class="fa fa-signal" style="font-size:15px;"></i></div>
+                <div class="stat-item4"><p>Inverter Status: </p><strong>...</strong></div>
+                <div class="stat-item5"><p>PR:</p> <strong>69.13</strong><i class="fa fa-signal" style="font-size:15px;"></i></div>
+</section>
+<section >
+    <div class="portfolio-summary">
+        <h2>Portfolio Summary <i class="fas fa-circle" style="color: green;"></i></h2>
+        <div class="country-filters">
+            <p>Countries</p>
+            <button class="btn-filter">ALL</button>
+            <button class="btn-filter active">IN</button>
+            <button class="btn-filter">ES</button>
+            <button class="btn-filter">ALL</button>
+            <button class="btn-filter">IN</button>
+        <div class="more-icons">
+            <div class="two-icons">
+                <i class="fa fa-calculator" style="font-size:24px"></i>
+                <i style="font-size:24px" class="fa">&#xf278;</i>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="dashboard">
+        <div class="list-heading"> 
+            <ul >
+                <li class="list-item">Name</li>
+                <li class="list-item">Last Data Received</li>
+                <li class="list-item">Location</li>
+                <li class="list-item">DC Capacity</li>
+                <li class="list-item">Plant Status</li>
+                <li class="list-item">Inverter Status</li>
+            </ul>
+            </div>
+            <div>
+            <ul class="list-row">
+                <li class="list-item">Perseus Power</li>
+                <li class="list-item">24.08.2024 | 12:32 PM</li>
+                <li class="list-item">Barcelonea</li>
+                <li class="list-item">0.20</li>
+                <li class="list-item status"><i class="fas fa-check-circle" style="font-size: 24px;"></i> Running</li>
+                <li class="list-item status"><i class="fas fa-check-circle"></i> Running</li>
+            </ul>
+            <ul class="list-row-even">
+                <li class="list-item">Perseus Power</li>
+                <li class="list-item">24.08.2024 | 12:32 PM</li>
+                <li class="list-item">Barcelonea</li>
+                <li class="list-item">0.20</li>
+                <li class="list-item status"><i class="fas fa-exclamation-circle"></i> Partial Breakdown</li>
+                <li class="list-item status"><i class="fas fa-times-circle"></i> Error</li>
+            </ul>
+            <ul class="list-row">
+                <li class="list-item">Perseus Power</li>
+                <li class="list-item">24.08.2024 | 12:32 PM</li>
+                <li class="list-item">Barcelonea</li>
+                <li class="list-item">0.20</li>
+                <li class="list-item status"><i class="fas fa-check-circle"></i> Running</li>
+                <li class="list-item status"><i class="fas fa-check-circle"></i> Running</li>
+            </ul>
+            <ul class="list-row-even">
+                <li class="list-item">Perseus Power</li>
+                <li class="list-item">24.08.2024 | 12:32 PM</li>
+                <li class="list-item">Barcelonea</li>
+                <li class="list-item">0.20</li>
+                <li class="list-item status"><i class="fas fa-exclamation-circle"></i> Partial Breakdown</li>
+                <li class="list-item status"><i class="fas fa-times-circle"></i> Error</li>
+            </ul>
+            <ul class="list-row">
+                <li class="list-item">Perseus Power</li>
+                <li class="list-item">24.08.2024 | 12:32 PM</li>
+                <li class="list-item">Barcelonea</li>
+                <li class="list-item">0.20</li>
+                <li class="list-item status"><i class="fas fa-check-circle"></i> Running</li>
+                <li class="list-item status"><i class="fas fa-check-circle"></i> Running</li>
+            </ul>
+            <ul class="list-row-even">
+                <li class="list-item">Perseus Power</li>
+                <li class="list-item">24.08.2024 | 12:32 PM</li>
+                <li class="list-item">Barcelonea</li>
+                <li class="list-item">0.20</li>
+                <li class="list-item status"><i class="fas fa-exclamation-circle"></i> Partial Breakdown</li>
+                <li class="list-item status"><i class="fas fa-times-circle"></i> Error</li>
+            </ul>
+        </div>
+    </div>
+</section>
+</body>
+</html> 
