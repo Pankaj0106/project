@@ -133,10 +133,7 @@ body {
     height: 100px;
     background-color: #d8fccd;
     border-radius: 8px;
-    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); 
-    display: flex; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
 
 }  
     
@@ -147,9 +144,6 @@ body {
     background-color: #f8dfee;
     border-radius: 8px;
     box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
-    display: flex; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
 }
 
 .stat-item3{
@@ -158,17 +152,12 @@ body {
     background-color: #e6c0dd;
     border-radius: 8px;
     box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
-    display: flex; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
+
 }
 
 .stat-item4{
     width: 220px;
     height: 100px;
-    display: flex; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
     background-color: #e6c0dd;
     border-radius: 8px;
     box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
@@ -178,9 +167,6 @@ body {
     background-color: #e6c0dd;
     width: 220px;
     height: 100px;
-    display: flex; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
     border-radius: 8px;
     box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
 }
@@ -204,16 +190,19 @@ body {
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 60px;
 }
 
 .btn-filter {
-    padding: 10px 20px;
+    padding: 2px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #ddd;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    border: none;
 }
 
 .btn-filter.active,
@@ -281,4 +270,50 @@ body {
     color: red;
 }
 
+
+.fix{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+
+
+.icons :last-child{
+    border: 1px solid black;
+    background-color: #7e7979;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.icons :nth-last-child(2){
+    border: 1px solid black;
+    background-color:rgba(0, 0, 255, 0.72);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+
+.icons{
+    display: flex;
+    gap:15px;
+}
+
+.fix-dis{
+    display: flex;
+    flex-direction: column;
+    gap:18px
+}
+
+.left-content{
+    line-height: 10px;
+}
+
+#cf-left{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    height: 25px;
+}
 
